@@ -1,0 +1,16 @@
+
+Library Management System (LMS).
+
+This project involves creating a system where users can manage a library, including adding, viewing, searching, borrowing, and returning books. Below are the milestones to help you build this project incrementally:
+
+Project: Library Management System
+Milestone 1: Project Setup and Basic Structure
+Tasks:
+
+Create a Library class to manage the collection of books.
+Create a Book class with attributes like title, author, ISBN, and isBorrowed.
+Write a Main class to handle user interactions via the command line.
+Deliverables:
+
+A Book class with getters, setters, and methods like borrow() and returnBook().
+A Library class to store a list of books.

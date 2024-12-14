@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Here are the available books:");
         library.displayBooks();
 
-        //Borrow and return some books
+        //Borrow a books
         library.getBook(0).borrow();
 
 
@@ -24,6 +24,8 @@ public class Main {
 
         System.out.println("\n\n");
         library.getBook(0).returnBook();
+
+        //displaying after returning
         library.displayBooks();
     }
 }
